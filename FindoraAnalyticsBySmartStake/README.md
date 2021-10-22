@@ -19,22 +19,24 @@ Features included are:
     -	Support validator logos from tendermint validator identity attribute (if supported)
     -	Allow configurable view of data - show default set of data elements but provide users a way to change the view to include/exclude elements
     -	Support voting power percentage and cumulative voting power percentage (not shown in screenshot below) to allow assessing centralization of staking power
-
+    <br/>
     <img src="validatorList.png" width="1100" height="400">
     -	Block signature percentage & APRs will be calculated over a short/current term (e.g. last 8 hour), 1 day, 10 days (medium term), and 30 days (average)
     -	All supported data elements are shown below (subject to applicability of data being available via RPC/REST interfaces)
-
+    <br/>
     <img src="validatorFields.png" width="577" height="844">
 
   - Validator details screen - validator details screen will provide all the data available in above screenshot. It will also provide historical block signature data at hourly and daily intervals. By default, the block signature performance data will be available for the last 10 hours (hourly view) and last 10 days (daily view). Users will be able to change the time interval to an extended interval to see performance breakdown over last 30 days
-    <img src="validatorDetails1.png" width="761" height="400">
-    <img src="validatorDetails2.png" width="761" height="400">
+  <br/>
+  <img src="validatorDetails1.png" width="761" height="400">
+  <img src="validatorDetails2.png" width="761" height="400">
 
 
   - Basic Stats (validator list screen) - Total Staked amount, Staking APR (based on staked amount and annual inflation)
 
   - Staking Rewards Calculator - anticipated staking rewards calculator allows users to see anticipated staking rewards based on network level APR as well as based on individual validators’s performance and commission. Below screenshot provides a sample view of the calculator
-    <img src="calculator.png" width="960" height="400">
+  <br/>
+  <img src="calculator.png" width="960" height="400">
 
   - Notification Banner - dashboard/network level notification banner on the validator list screen and validator specific notifications on the validator home page. Notifications can be used to relay important messages about network aspects (e.g. urgent/planned upgrade messages or dashboard maintenance aspects or other announcements)
   - Backend data gathering scripts for validator profile details and performance details. Scripts for maintaining historical data of validator performance
